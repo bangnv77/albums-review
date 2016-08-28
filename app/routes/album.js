@@ -1,6 +1,7 @@
 import Ember from 'ember';
 
 export default Ember.Route.extend({
+  favoriteAlbums: Ember.inject.service(),
   model(params) {
     return this.store.findRecord('album', params.album_id);
   },
@@ -14,6 +15,11 @@ export default Ember.Route.extend({
         console.log(album);
         return album.save();
       });
+    },
+
+    addToFavorites(album) {
+      this.get('favoriteAlbums').add(album);
+      console.log(this.get('favoriteAlbums.albums'));
     }
   }
 });

@@ -7,11 +7,11 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('albums');
   this.route('about');
   this.route('contact');
   this.route('album', {path: '/album/:album_id'});
   this.route('admin');
+  this.route('favorites');
 });
 
 export default Router;
