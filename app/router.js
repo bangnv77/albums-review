@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('about');
   this.route('contact');
   this.route('album', {path: '/album/:album_id'});
+  this.route('admin');
 });
 
 export default Router;
