@@ -30,8 +30,8 @@ h1 {
 }
 
 .album-tile {
-  width: 360px;
-  height: 360px;
+  width: 325px;
+  height: 325px;
   background-size: cover;
   line-height: 360px;
   text-align: center;
@@ -43,13 +43,16 @@ h1 {
 }
 
 .album-tile:hover {
-  width: 360px;
-  height: 360px;
   opacity: 0.8;
-  background-image: url('http://www.imagingassociates.com.au/color/images/test-patterns/EBU_ColorBars-768x576.png');
 }
 
 .album-tile:hover .currently-hidden {
   display: inline-block;
   vertical-align: center;
+}
+
+.album-cover {
+  width: 500px;
+  height: 500px;
+  background-size: cover;
 }

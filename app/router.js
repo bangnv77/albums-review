@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('albums');
   this.route('about');
   this.route('contact');
+  this.route('album', {path: '/album/:album_id'});
 });
 
 export default Router;
