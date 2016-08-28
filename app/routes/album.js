@@ -7,7 +7,6 @@ export default Ember.Route.extend({
 
   actions: {
     saveReview(params) {
-      var self = this;
       var newReview = this.store.createRecord('review', params);
       var album = params.album;
       album.get('reviews').addObject(newReview);

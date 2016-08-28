@@ -1,1 +1,17 @@
-{{yield}}
+<div class="row">
+  {{#if reviews}}
+    <h3>Album Reviews</h3>
+    <br>
+    {{#each reviews as |review|}}
+      <div class="col-sm-3">
+        <h4>{{star-review review.rating}}</h4>
+        <h5>{{review.comment}}</h5>
+        <h6>by {{review.userName}}</h6>
+      </div>
+    {{/each}}
+  {{else}}
+    <div class="col-sm-12">
+      <h3>Thre are no reviews for this album.</h3>
+    </div>
+  {{/if}}
+</div>
