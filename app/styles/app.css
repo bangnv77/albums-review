@@ -1,0 +1,55 @@
+@import 'http://fonts.googleapis.com/css?family=Roboto';
+@import 'https://fonts.googleapis.com/css?family=Trade+Winds';
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.hero-box {
+  font-family: 'Trade Winds', sans-serif;
+  background-image: url('https://hd.unsplash.com/photo-1461175905877-4c544d68b675');
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  line-height: 500px;
+  text-align: center;
+}
+
+.vert-center {
+  display: inline-block;
+  vertical-align: middle;
+  color: #F3F3F3;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+.album-tile {
+  width: 360px;
+  height: 360px;
+  background-size: cover;
+  line-height: 360px;
+  text-align: center;
+  color: white;
+}
+
+.currently-hidden {
+  display: none;
+}
+
+.album-tile:hover {
+  width: 360px;
+  height: 360px;
+  opacity: 0.8;
+  background-image: url('http://www.imagingassociates.com.au/color/images/test-patterns/EBU_ColorBars-768x576.png');
+}
+
+.album-tile:hover .currently-hidden {
+  display: inline-block;
+  vertical-align: center;
+}
