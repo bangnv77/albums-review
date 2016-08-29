@@ -1,7 +1,6 @@
-# Albums-ember
+# Album Reviews
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+A website that allows users to review albums and see reviews by other reviews. Also allows the admin to add more albums for users to review. Made with Ember.js
 
 ## Prerequisites
 
@@ -39,9 +38,14 @@ Make use of the many generators for code, try `ember help generate` for more det
 * `ember build` (development)
 * `ember build --environment production` (production)
 
-### Deploying
+### User Stories
 
-Specify what it takes to deploy your app.
+* The restaurant (or whatever users will review in your app) will have many ratings.
+* Ratings may be any metric of your choosing, and could include a comment/explanation if you desire.
+* Use a helper to display nicely formatted timestamps, and/or represent ratings visually (ie: display stars, or thumbs up/thumbs down).
+* Include at least one computed property.
+* Use a service to allow users to create a list of "favorite restaurants" (or whatever thing users review in your specific app).
+* There should be an option to add new restaurants/things to review. This can either be an admin-style page, or something available to all users.
 
 ## Further Reading / Useful Links
 
@@ -50,4 +54,3 @@ Specify what it takes to deploy your app.
 * Development Browser Extensions
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-

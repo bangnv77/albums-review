@@ -1,26 +1,26 @@
 { "albums" : [{
-    "title": "Blonde",
-    "artist": "Frank Ocean",
+    "title": "Lemonade",
+    "artist": "Beyonce",
     "genre": "Pop",
     "year": 2016,
-    "artworkUrl": "http://photos.laineygossip.com/articles/frank-ocean-blonde-22aug16.jpg"
+    "artworkUrl": "https://s-media-cache-ak0.pinimg.com/236x/c0/68/66/c068661f814f9dd6e28fda3b13b59b35.jpg"
   }, {
-    "title": "Prima Donna",
-    "artist": "Vince Staples",
-    "genre": "Hip Hop/Rap",
+    "title": "Blurryface",
+    "artist": "Twenty one pilots",
+    "genre": "Rock",
     "year": "2016",
-    "artworkUrl": "http://2ykov18qyj81ii56523ib0ue.wpengine.netdna-cdn.com/wp-content/uploads/2016/08/vince-staples-prima-donna.jpg"
+    "artworkUrl": "http://www.billboard.com/files/media/Twenty-One-Pilots-performing-live-on-stage-on-at-O2-Academy-2016-billboard-1240.jpg"
   }, {
-    "title": "To Pimp a Butterfly",
-    "artist": "Kendrick Lamar",
-    "genre": "Hip Hop/Rap",
-    "year": "2015",
-    "artworkUrl": "http://warp.la/wp-content/uploads/2015/03/kendrick-to-pimp-butterfly.jpg"
-  }, {
-    "title": "Bobby Tarantino",
-    "artist": "Logic",
-    "genre": "Hip Hop/Rap",
+    "title": "Coloring Book",
+    "artist": "Chance The Rapper",
+    "genre": "Hip Hop",
     "year": "2016",
-    "artworkUrl": "https://ioneglobalgrind.files.wordpress.com/2016/07/14673840851252.png?w=600&h=600"
+    "artworkUrl": "https://67.media.tumblr.com/73df98cac374c8747b95c5cd1c3c84af/tumblr_ob7xjt9gLL1vtor51o1_500.png"
+  }, {
+    "title": "A Sailor's Guide to Earth",
+    "artist": "Sturgill Simpson",
+    "genre": "Country",
+    "year": "2016",
+    "artworkUrl": "http://cdn.albumoftheyear.org/album/2016/51297-a-sailors-guide-to-earth.jpg"
   }]
 }
